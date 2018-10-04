@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List when clicking button only shows positive numbers 1`] = `
+<div>
+  <ListItem
+    key="0"
+    value={1}
+  />
+  <ListItem
+    key="1"
+    value={5}
+  />
+  <ListItem
+    key="2"
+    value={-3}
+  />
+  <ListItem
+    key="3"
+    value={4}
+  />
+  <ListItem
+    key="4"
+    value={-2}
+  />
+  <button
+    onClick={[Function]}
+  />
+</div>
+`;
+
+exports[`List when clicking button only shows positive numbers 2`] = `
+<div>
+  <ListItem
+    key="0"
+    value={1}
+  />
+  <ListItem
+    key="1"
+    value={5}
+  />
+  <ListItem
+    key="2"
+    value={4}
+  />
+  <button
+    onClick={[Function]}
+  />
+</div>
+`;
+
+exports[`List when given a list of numbers create corresponding list items 1`] = `
+<div>
+  <ListItem
+    key="0"
+    value={1}
+  />
+  <ListItem
+    key="1"
+    value={5}
+  />
+  <ListItem
+    key="2"
+    value={-3}
+  />
+  <ListItem
+    key="3"
+    value={4}
+  />
+  <ListItem
+    key="4"
+    value={-2}
+  />
+  <button
+    onClick={[Function]}
+  />
+</div>
+`;
